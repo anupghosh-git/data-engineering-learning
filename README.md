@@ -21,13 +21,19 @@ A programming language and some sort of programming knowledge.
     - Identity is about WHO you are.
     - Identity is sometimes tested proven through username and password  combinations.
   - Accsss is referred as what is allowed to do or use something.
-    - Proving a right to access something is called Authorization
+    - Proving  right to access something is called Authorization
     - Access is about WHAT you can see/do.
     - Access is sometimes tested and awarded through RBAC(Role Based Access Control) role assignments.
 - Difference between User and Role:
   - User is a person who will be assigned the roles to do or control
   - Roles are assigned to the User. User can switch between the different roles.
-
+- Roles are in snowflake:
+  - ACCOUNTADMIN
+  - SYSADMIN 
+  - SECURITYADMIN
+  - USERADMIN
+  - PEOPLE
+- Here the most powerfull role is ACCOUNTADMIN.
 ### 5. Knowledge on Cloud Databases
 
 ### 6. A Data Engineering project
