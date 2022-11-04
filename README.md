@@ -32,8 +32,16 @@ A programming language and some sort of programming knowledge.
   - SYSADMIN 
   - SECURITYADMIN
   - USERADMIN
-  - PEOPLE
+  - PUBLIC
 - Here the most powerfull role is ACCOUNTADMIN.
+- SYSADMIN and SECURITYADMIN is under ACCOUNTADMIN
+- A data created by ACCOUNTADMIN is the only owner of this data base. But if  ACCOUNTADMIN role transfer the ownwership to SYSADMIN then SYSADNIN will also have the ownership of that database. 
+- Every data base created in snowflake will have two schema
+  - INFORMATION_SCHEMA
+     - Not changeable: cration table, delete table, ....
+  - PUBLIC 
+     - Changeable: cration table, delete table, ....
+- If the ownership is tranfered the the INFORMATION_SCHEMA is also transfered but not the PUBLIC schema. It need to be manually shared. 
 ### 5. Knowledge on Cloud Databases
 
 ### 6. A Data Engineering project
