@@ -84,7 +84,7 @@ A programming language and some sort of programming knowledge.
 	- SELECT * FROM ROOT_DEPTH
 limit 1;
 
-INSERT INTO ROOT_DEPTH (
+	- INSERT INTO ROOT_DEPTH (
 	ROOT_DEPTH_ID ,
 	ROOT_DEPTH_CODE ,
 	ROOT_DEPTH_NAME ,
@@ -93,7 +93,7 @@ INSERT INTO ROOT_DEPTH (
 	RANGE_MAX 
 )
 
-VALUES
+	- VALUES
 (
     2,
     'M',
