@@ -70,7 +70,7 @@ A programming language and some sort of programming knowledge.
 	RANGE_MAX 
 )
 
-VALUES
+	- VALUES
 (
     1,
     'S',
@@ -114,7 +114,7 @@ VALUES
 	RANGE_MAX 
 )
 
-VALUES
+	- VALUES
 (
     3,
     'D',
