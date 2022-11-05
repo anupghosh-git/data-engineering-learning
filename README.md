@@ -42,6 +42,90 @@ A programming language and some sort of programming knowledge.
   - PUBLIC 
      - Changeable: cration table, delete table, ....
 - If the ownership is tranfered the the INFORMATION_SCHEMA is also transfered but not the PUBLIC schema. It need to be manually shared. 
+- Using WORKSHEETS:
+  - writing some SQL code
+    SELECT 'HELLO';
+SELECT 'HELLO' AS "GREETINGS";
+SHOW DATABASES;
+SHOW SCHEMAS IN ACCOUNT;
+CREATE OR REPLACE TABLE ROOT_DEPTH(
+    ROOT_DEPTH_ID NUMBER(1),
+    ROOT_DEPTH_CADE TEXT(1),
+    ROOT_DEPTH_NAME TEXT(7),
+    UNIT_OF_MEASURE TEXT(2),
+    RANGE_MIN NUMBER(2),
+    RANGE_MAX NUMBER(2)
+    );
+    
+alter table GARDEN_PLANTS.VEGGIES.ROOT_DEPTH 
+RENAME COLUMN ROOT_DEPTH_CADE TO ROOT_DEPTH_CODE;
+USE WAREHOUSE COMPUTE_WH;
+
+INSERT INTO ROOT_DEPTH (
+	ROOT_DEPTH_ID ,
+	ROOT_DEPTH_CODE ,
+	ROOT_DEPTH_NAME ,
+	UNIT_OF_MEASURE ,
+	RANGE_MIN ,
+	RANGE_MAX 
+)
+
+VALUES
+(
+    1,
+    'S',
+    'Shallow',
+    'cm',
+    30,
+    45
+)
+;
+
+SELECT * FROM ROOT_DEPTH
+limit 1;
+
+INSERT INTO ROOT_DEPTH (
+	ROOT_DEPTH_ID ,
+	ROOT_DEPTH_CODE ,
+	ROOT_DEPTH_NAME ,
+	UNIT_OF_MEASURE ,
+	RANGE_MIN ,
+	RANGE_MAX 
+)
+
+VALUES
+(
+    2,
+    'M',
+    'Medium',
+    'cm',
+    45,
+    60
+)
+;
+
+
+INSERT INTO ROOT_DEPTH (
+	ROOT_DEPTH_ID ,
+	ROOT_DEPTH_CODE ,
+	ROOT_DEPTH_NAME ,
+	UNIT_OF_MEASURE ,
+	RANGE_MIN ,
+	RANGE_MAX 
+)
+
+VALUES
+(
+    3,
+    'D',
+    'Deep',
+    'cm',
+    60,
+    90
+)
+;
+
+select * From ROOT_DEPTH;
 ### 5. Knowledge on Cloud Databases
 
 ### 6. A Data Engineering project
