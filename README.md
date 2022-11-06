@@ -126,6 +126,9 @@ limit 1;
 ;
 
 	- select * From ROOT_DEPTH;
+	
+- Inserting data or uploading data to database:
+	- uploading CSV file 
 ### 5. Knowledge on Cloud Databases
 
 ### 6. A Data Engineering project
