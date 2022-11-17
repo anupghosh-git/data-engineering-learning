@@ -3,6 +3,13 @@ Here I gathered all information and knowledge for data engineering..
 ## For the Data Engineering Base:
 ### 1. Knowledge on SQL and NoSQL databases
 - Relational databases
+	- Oracle Database
+	- MySQL Database
+	- PostgreSQL Database
+		- Downloaded and completed the setup postgresql 15.1.1
+			- Link: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
+		- Shell SQL(psql)
+			- Creating database and perform CRUD operation
 - Non Relational Databases
 
 ### 2. SQL
