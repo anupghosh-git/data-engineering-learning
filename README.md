@@ -20,6 +20,26 @@ Here I gathered all information and knowledge for data engineering..
 				 id BIGSERIAL NOT NULL PRIMARY KEY,
 				 name VARCHAR(100) NOT NULL,
 				 country VARCHAR(50) NOT NULL);
+				- \d: check test database table details
+				- \dt
+				- select * form person;
+				- Inserting data into the table:
+					- insert into person (name, country) values('Pankaj', 'BD');
+					- insert into person (name, country) values('Chanchal', 'USA');
+					- insert into person (name, country) values('Anup', 'GE');
+					- insert into person (name, country) values('Bibhuti', 'BD');
+					- insert into person (name, country) values('Shaishab', 'BD');
+					- insert into person (name, country) values('Subir', 'BD');
+					- insert into person (name, country) values('Mithu', 'BD');
+					- insert into person (name, country) values('Sanaton', 'USA');
+					- select * from person where name like 'Pan%';
+					- select * from person where name like '%an%;
+					- select * from person;
+					- select count(id) from person;
+					- select count(id) from person;
+					- update person set name = 'Chanchal' where id = 8;
+					- select * from person;
+					- delete from person where id = 7;
 - Non Relational Databases
 
 ### 2. SQL
