@@ -9,7 +9,17 @@ Here I gathered all information and knowledge for data engineering..
 		- Downloaded and completed the setup postgresql 15.1.1
 			- Link: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 		- Shell SQL(psql)
+			- Check database details:\d
+			- Check specific database tables details with sequence: \dt
+			- Check specific database tables details: \t
+			- To on the expand  shell display for big table(horizontally):\x
+			- To on the expand  shell display:\x  
 			- Creating database and perform CRUD operation
+				- CREATE DATABASE test;
+				- CREATE TABLE person(
+				 id BIGSERIAL NOT NULL PRIMARY KEY,
+				 name VARCHAR(100) NOT NULL,
+				 country VARCHAR(50) NOT NULL);
 - Non Relational Databases
 
 ### 2. SQL
